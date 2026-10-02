@@ -7,7 +7,7 @@ A production-ready full-stack blog platform built with **Next.js (App Router, Ty
 ## Architecture Overview
 
 ```text
-blog-project/
+devopsblog/
 ├── frontend/                     # Next.js App Router Frontend
 │   ├── app/                      # Pages: /, /blog, /blog/[slug], /category/[slug], /login, /register, /profile
 │   ├── components/               # Header, Footer, BlogCard, BlogGrid, CategoryNavigation, etc.
@@ -50,7 +50,7 @@ The fastest way to launch the entire stack:
 
 ```bash
 # 1. Clone or navigate to the project directory
-cd /home/aman/Dev/devops
+cd /home/aman/Dev/devops/devopsblog
 
 # 2. Copy the sample environment file
 cp .env.example .env
